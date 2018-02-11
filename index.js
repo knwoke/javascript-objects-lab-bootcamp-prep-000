@@ -11,10 +11,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   var object = new Object();
-  var object = {
-    prop: 1,
-    prop2: 2,
-  }
+  object.key = 'value';
   return object;
 }
 
